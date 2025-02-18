@@ -1,0 +1,23 @@
+# Ignore database files (for PostgreSQL, it's not needed but in case you use SQLite or similar)
+*.db
+*.sqlite
+*.postgresql
+*.pg_data
+
+# Ignore virtual environment folder (if you have one)
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore IDE-specific files (for PyCharm)
+.idea/
+
+# Ignore environment configuration files (if you're using them)
+.env
+config.json
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
