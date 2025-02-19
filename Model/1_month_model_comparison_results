@@ -1,0 +1,4 @@
+,Model,Best Params,Test MSE,Test R2
+0,Ridge,"{'alpha': 100, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': None, 'solver': 'auto', 'tol': 0.0001}",45.06870386004715,0.9098489133946532
+1,Lasso,"{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 10000, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}",39.12726978826734,0.9217335848338024
+2,ElasticNet,"{'alpha': 10, 'copy_X': True, 'fit_intercept': True, 'l1_ratio': 0.5, 'max_iter': 10000, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}",38.03987057685993,0.9239087132951531

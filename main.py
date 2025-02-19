@@ -1,5 +1,5 @@
 # CS-finance v.0
-import sys
+# import sys
 import yfinance as yf
 import pandas as pd
 
@@ -11,8 +11,8 @@ import pandas as pd
 ticker = 'TSLA'
 
 # Download 1 month of data for {ticker} at 4-hour intervals
-data = pd.DataFrame(yf.download(ticker, period='1mo', interval='1h'))
-data.to_csv(f'{ticker.lower()}_stock_data.csv')
+data = pd.DataFrame(yf.download(ticker, period='2y', interval='1h'))
+data.to_csv(f'{ticker.lower()}_stock_data_2y.csv')
 
 # import time
 # import requests
