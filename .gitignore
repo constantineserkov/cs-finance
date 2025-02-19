@@ -4,7 +4,7 @@
 *.postgresql
 *.pg_data
 
-# Ignore virtual environment folder (if you have one)
+# Ignore virtual environment folder
 venv/
 
 # Ignore Python bytecode files
@@ -14,7 +14,7 @@ __pycache__/
 # Ignore IDE-specific files (for PyCharm)
 .idea/
 
-# Ignore environment configuration files (if you're using them)
+# Ignore environment configuration files
 .env
 config.json
 
